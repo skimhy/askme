@@ -1,0 +1,35 @@
+.form{
+    display: block;
+    background-color: rgba(136, 207, 88, 0.616);
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid royalblue;
+    box-shadow: 3px;
+}
+.title{
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    color: rgb(241, 7, 210);
+    font-weight: 1000;
+
+}
+.number{
+    color: brown;
+    background-color: darkgoldenrod;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btnShow{
+    padding: 10px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.btnShow:hover{
+    opacity: 0.8;
+    background-color: brown;
+}

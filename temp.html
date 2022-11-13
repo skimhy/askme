@@ -8,15 +8,23 @@
         <div class="form">
             <div class="title">Temperature Convertor</div>
             <div class="value">
-                <input type="text" class="number">
-                <option>
-                    <select>Farinhiet</option>
-                    <select>Celcius</option>
+                <input type="text" class="number" id="num">
+                <option id="converttype">
+                    <select>Farinhiet</select>
+                    <select>Celcius</select>
                 </option>
                 <button class="btnShow" onclick="Show()">Show</button>
                 <p class="result">Answer: <label id="ans" value="0"></label></p>
             </div>
 
         </div>
+        <script>
+            function Show(){
+                let temp = document.getElementById("num").value;
+                window.alert(temp);
+
+            }
+
+        </script>
     </body>
 </html>
